@@ -25,6 +25,7 @@ and open the template in the editor.
             </nav>
 
             <section>
+                <form class="urlap">
                 <p for="nev">név:</p>
                 <input type="text" id="nev" name="nev" value="Valaki Vagyok">
                 <p for="tel">tel:</p>
@@ -33,6 +34,24 @@ and open the template in the editor.
                 <input type="text" id="kep" name="kep">
                 <br>
                 <button id="kuld">Küld</button>
+                </form>
+
+            </section>
+            <section>
+                <form class="urlap szerkesztes elrejt">
+                <p for="nev2">ID:</p>
+                <input type="text" id="id2" name="id2">
+                <p for="nev2">név:</p>
+                <input type="text" id="nev2" name="nev2">
+                <p for="tel2">tel:</p>
+                <input type="text" id="tel2" name="tel2">
+                <p for="kep2">kép:</p>
+                <input type="text" id="kep2" name="kep2">
+                <br>
+                <button id="modosit">Módosít</button>
+                <br>
+                <button id="megse">Mégse</button>
+                </form>
 
             </section>
             <article>
